@@ -1,3 +1,4 @@
+window.onload=function(){
 const netflix_open_btn = document.querySelector('.netflix-open-btn');
 const netflix_close_btn = document.querySelector('.netflix-close-btn');
 const netflix_navs = document.querySelectorAll('.netflix-nav');
@@ -15,3 +16,4 @@ netflix_close_btn.addEventListener('click', () => {
 		nav_el.classList.remove('visible');
 	})
 });
+}
